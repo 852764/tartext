@@ -9,7 +9,7 @@ fartext改为安卓8实现步骤
 import cn.mik.Fartext;
 这是自实现的一个类，首先导入
 然后在handleBindApplication 合适位置插入 Fartext.fartthread()
-private void handleBindApplication(AppBindData data) {
+// private void handleBindApplication(AppBindData data) {
     // Register the UI Thread as a sensitive thread to the runtime.
     VMRuntime.registerSensitiveThread();
     // In the case the stack depth property exists, pass it down to the runtime.
